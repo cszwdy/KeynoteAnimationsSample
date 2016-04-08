@@ -37,6 +37,8 @@
 		2C9F8DBF1CB1596800020A37 /* AniNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F8DBE1CB1596800020A37 /* AniNode.swift */; };
 		2C9F8DC31CB25AC000020A37 /* AniContainer.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C9F8DC21CB25AC000020A37 /* AniContainer.json */; };
 		2C9F8DC61CB288AA00020A37 /* MoveInAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F8DC51CB288AA00020A37 /* MoveInAnimation.swift */; };
+		2CDF29191CB73FF9005A7730 /* AniPlayCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF29181CB73FF9005A7730 /* AniPlayCanvasView.swift */; };
+		2CDF291B1CB74804005A7730 /* AniPlayCanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF291A1CB74804005A7730 /* AniPlayCanvasViewController.swift */; };
 		2CEC0C731CACAA3D00C8748F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC0C711CACAA3D00C8748F /* CustomView.swift */; };
 		2CEC0C741CACAA3D00C8748F /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC0C721CACAA3D00C8748F /* QCMethod.swift */; };
 		2CEC0C761CACB1AD00C8748F /* AnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC0C751CACB1AD00C8748F /* AnimViewController.swift */; };
@@ -117,6 +119,8 @@
 		2C9F8DBE1CB1596800020A37 /* AniNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AniNode.swift; sourceTree = "<group>"; };
 		2C9F8DC21CB25AC000020A37 /* AniContainer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AniContainer.json; sourceTree = "<group>"; };
 		2C9F8DC51CB288AA00020A37 /* MoveInAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveInAnimation.swift; sourceTree = "<group>"; };
+		2CDF29181CB73FF9005A7730 /* AniPlayCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AniPlayCanvasView.swift; sourceTree = "<group>"; };
+		2CDF291A1CB74804005A7730 /* AniPlayCanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AniPlayCanvasViewController.swift; sourceTree = "<group>"; };
 		2CEC0C711CACAA3D00C8748F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		2CEC0C721CACAA3D00C8748F /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMethod.swift; sourceTree = "<group>"; };
 		2CEC0C751CACB1AD00C8748F /* AnimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +236,7 @@
 				2CEC0C7C1CAD0A4600C8748F /* TransitionLayout.swift */,
 				2CEC0C751CACB1AD00C8748F /* AnimViewController.swift */,
 				2C9F8DB41CB1168400020A37 /* AniPlayViewController.swift */,
+				2CDF291A1CB74804005A7730 /* AniPlayCanvasViewController.swift */,
 				2C63A26A1C4E54C300C04B6B /* Main.storyboard */,
 				2C63A26D1C4E54C300C04B6B /* Assets.xcassets */,
 				2C63A26F1C4E54C300C04B6B /* LaunchScreen.storyboard */,
@@ -311,6 +316,7 @@
 				2CEC0C821CADF36E00C8748F /* AniCanvasView.swift */,
 				2C9F8DBC1CB1594600020A37 /* AniControl.swift */,
 				2C9F8DBE1CB1596800020A37 /* AniNode.swift */,
+				2CDF29181CB73FF9005A7730 /* AniPlayCanvasView.swift */,
 			);
 			name = Ani;
 			sourceTree = "<group>";
@@ -524,6 +530,7 @@
 				2C63A2691C4E54C300C04B6B /* ViewController.swift in Sources */,
 				2C9F8DB31CB10A2200020A37 /* AniContainer.swift in Sources */,
 				2CEC0C791CACB38700C8748F /* UISlider+Extension.swift in Sources */,
+				2CDF291B1CB74804005A7730 /* AniPlayCanvasViewController.swift in Sources */,
 				2C3BB1581CB65D810060157C /* AniFactory.swift in Sources */,
 				2CEC0CAA1CAE7CF900C8748F /* Animation.swift in Sources */,
 				2CEC0CAC1CAE8A4C00C8748F /* AniPlayControl.swift in Sources */,
@@ -533,6 +540,7 @@
 				2C9F8DBD1CB1594600020A37 /* AniControl.swift in Sources */,
 				2C9F8DB51CB1168400020A37 /* AniPlayViewController.swift in Sources */,
 				2CEC0C921CADFEF600C8748F /* AniCanvasLayout.swift in Sources */,
+				2CDF29191CB73FF9005A7730 /* AniPlayCanvasView.swift in Sources */,
 				2C9F8DAC1CB0FF1800020A37 /* ContainerLayout.swift in Sources */,
 				2C9F8DA61CB0FEC300020A37 /* ContainerCell.swift in Sources */,
 				2CEC0C741CACAA3D00C8748F /* QCMethod.swift in Sources */,
