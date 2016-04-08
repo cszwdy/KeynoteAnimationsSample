@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode7.3
-xcode_project: PopApp.xcworkspace
+xcode_project: PopApp..xcodeproj
 xcode_scheme: PopApp
 xcode_sdk: iphonesimulator9.3
