@@ -1,0 +1,2 @@
+/Users/Emiaostein/Library/Developer/Xcode/DerivedData/PopApp-dutykcotgnhlupdhbcqxsavswhgl/Build/Products/Debug-iphonesimulator/PopApp.app
+

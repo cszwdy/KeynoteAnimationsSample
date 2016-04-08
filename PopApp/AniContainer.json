@@ -1,0 +1,46 @@
+{
+  "identifier": "QWERTY1",
+  "positionX": 160,
+  "positionY": 60,
+  "width": 200,
+  "height": 100,
+  "rotation": 0,
+  "contents": [
+    {
+      "positionX": 50,
+      "positionY": 25,
+      "width": 80,
+      "height": 15,
+      "source": {
+        "text": "Emiaostein"
+      }
+    },
+    {
+      "positionX": 150,
+      "positionY": 25,
+      "width": 80,
+      "height": 15,
+      "source": {
+        "text": "Emiaostein"
+      }
+    },
+    {
+      "positionX": 50,
+      "positionY": 75,
+      "width": 80,
+      "height": 15,
+      "source": {
+        "text": "Emiaostein"
+      }
+    },
+    {
+      "positionX": 150,
+      "positionY": 75,
+      "width": 80,
+      "height": 15,
+      "source": {
+        "text": "Emiaostein"
+      }
+    }
+  ]
+}

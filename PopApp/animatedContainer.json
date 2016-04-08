@@ -1,0 +1,19 @@
+{
+    "identifier": "QWERTY1",
+    "positionX": 160,
+    "positionY": 60,
+    "width": 200,
+    "height": 100,
+    "rotation": 0,
+    "contents": [
+                 {
+                 "positionX": 100,
+                 "positionY": 50,
+                 "width": 160,
+                 "height": 60,
+                 "source": {
+                 "text": "Emiaostein"
+                 }
+                 }
+                 ]
+}

@@ -1,0 +1,82 @@
+{
+    "width": 320,
+    "height": 320,
+    "animations": [
+                   {
+                   "ID": "QWERTY1",
+                   "targetID": "QWERTY2",
+                   "descriptor": {
+                   "type": "MOVE_IN",
+                   "config": {
+                   "delay": 0.5,
+                   "duration": 1,
+                   "direction": "UP",
+                   "bounce": true,
+                   "textDelivery": "BY_WORD",
+                   "textDeliveryFrom": "BACKWORD",
+                   "delivery": "ALL_AT_ONCE",
+                   "deiveryFrom": 0,
+                   "deliveryTo": -1
+                   }
+                   }
+                   },
+                   {
+                   "ID": "QWERTY2",
+                   "targetID": "QWERTY1",
+                   "descriptor": {
+                   "type": "MOVE_OUT",
+                   "config": {
+                   "delay": 0.5,
+                   "duration": 1,
+                   "direction": "UP",
+                   "bounce": true,
+                   "textDelivery": "BY_WORD",
+                   "textDeliveryFrom": "BACKWORD",
+                   "delivery": "ALL_AT_ONCE",
+                   "deiveryFrom": 0,
+                   "deliveryTo": -1
+                   }
+                   }
+                   }
+                   ],
+    "containers": [
+                   {
+                   "identifier": "QWERTY1",
+                   "positionX": 160,
+                   "positionY": 60,
+                   "width": 300,
+                   "height": 100,
+                   "rotation": 45,
+                   "contents": [
+                                {
+                                "positionX": 100,
+                                "positionY": 50,
+                                "width": 160,
+                                "height": 60,
+                                "source": {
+                                "text": "Emiaostein"
+                                }
+                                }
+                                ]
+                   },
+                   {
+                   "identifier": "QWERTY2",
+                   "positionX": 160,
+                   "positionY": 240,
+                   "width": 300,
+                   "height": 100,
+                   "rotation": 0,
+                   "contents": [
+                                {
+                                "positionX": 100,
+                                "positionY": 50,
+                                "width": 160,
+                                "height": 60,
+                                "source": {
+                                "text": "Emiaostein"
+                                }
+                                }
+                                ]
+                   }
+                   ]
+}
