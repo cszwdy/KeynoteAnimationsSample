@@ -49,7 +49,6 @@ extension AniCanvas: UICollectionViewDataSource {
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier(canvasItemIdentifier, forIndexPath: indexPath)
                 as! ContainerCell
             
-//            cell.backgroundColor = UIColor.darkGrayColor()
             cell.dataSource = containers[indexPath.item]
             cell.delegate = containers[indexPath.item]
             
@@ -65,5 +64,16 @@ extension AniCanvas: CanvasLayoutDataSource {
         } else {
             return nil
         }
+    }
+}
+
+extension AniCanvas: AniPlayCanvasViewDataSource {
+    
+    func animationsForAniPlayCanvasView(view: AniPlayCanvasView) -> [Animation]? {
+        
+        return canvas.animations
+    }
+    func containerItemForAniPlayCanvasView(view: AniPlayCanvasView, containerID: String) -> AniCanvasAccessResult {
+        return accessContainerBy(containerID)
     }
 }
